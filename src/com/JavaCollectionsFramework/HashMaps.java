@@ -85,7 +85,7 @@ public class HashMaps {
 
 /*
 
- BILATERAL MAPPING / BIJECTION : (where every key has 1 unique value) [LC Q.290]
+ BILATERAL MAPPING / BIJECTION : (where every key has 1 unique value) 
 
 import java.util.StringTokenizer;
 class Solution {
