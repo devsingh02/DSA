@@ -1,6 +1,12 @@
 // s.indexOf(ch) -> CHECKS IF ch PRESENT IN s. ***
 // default value = null / 0
 
+/*
+    BUCKET / COUNTING :
+    Important Advantage of Arrays -> a[i] (get) = O(1)
+    int[] a = new int[1000000001];  is TOO BIG. The Memory Limit will exceed.
+ */
+
 package com.Tools;
 
 public class Arrays {
