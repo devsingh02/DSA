@@ -74,11 +74,20 @@ public class HashMaps {
         }
         System.out.println();
 
-        //Iteration (2)
-        System.out.println(hm);
-        Set<String> keys = hm.keySet();
-        for(String key : keys) {
-            System.out.println(key+ " " + hm.get(key));
+        //Iteration (2) : through Keys (can get values K->V)
+        for (String K : hm.keySet()) {
+            System.out.print(K + " ");
+        }
+        System.out.println();
+//        System.out.println(hm);
+//        Set<String> keys = hm.keySet();
+//        for(String key : keys) {
+//            System.out.println(key+ " " + hm.get(key));
+//        }
+
+        //Iteration (3) : through Values (only)
+        for (int V : hm.values()) {
+            System.out.print(V + " ");
         }
     }
 }
