@@ -9,7 +9,8 @@
 
 package com.Tools;
 
-public class Arrays {
+import java.util.Arrays;
+public class Array {
     public static void main(String[] args) {
         String sentence = "AyeBrother...Wassup?";
         String search = "Haha";
@@ -24,6 +25,6 @@ public class Arrays {
         int[] b = a.clone();
 
         //SORTING  O(n*log(n))
-        java.util.Arrays.sort(b);
+        Arrays.sort(b);
     }
 }

@@ -19,7 +19,7 @@ hm.containsKey(K) -> if value exists : returns true ***
 hm.containsValue(V) ***
 
 hm.get(K) -> exists : return Value (get(key) only) ***
-          -> doesn't: return null
+          -> doesn't: return null  ||  getOrDefault(K, dv) : returns dv
 
 hm.getOrDefault(K,<default-value>) : returns V (K->V) if K present, else returns <default-value> ***
 
